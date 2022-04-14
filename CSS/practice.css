@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body{
+    background-color: rgb(119, 119, 119);
+    font-family: "Roboto", sans-serif
+}
+
+nav{
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    border-bottom: solid 2px white;
+    padding: 5px;
+    color: white;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px black;
+    flex-direction: row;
+}
+
+.nButton{
+    padding: 5px;
+    margin: 3px 6px;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color: rgb(184, 184, 184);
+    text-decoration: underline;
+}
+
+a:active{
+    color:rgb(133, 133, 133);
+}
+
+#skills{
+    width:33vw;
+    margin:3% 0% 3% 1%;
+}
+
+.SVG{
+    border: white solid 2px;
+    background-color:skyblue;
+    margin: 1%;
+    padding: 5% 0% 1% 10%;
+}
+
+.knowledgeBars{
+    margin: 1%;
+}
+
+.knowledgeBars div{
+    margin: 1% 0%;
+    width: 40%;
+}
